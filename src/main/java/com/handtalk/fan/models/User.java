@@ -6,9 +6,51 @@ public class User {
     private String userName;
     private String userPhone;
     private String userPwd;
+    private String passwordConfirm;
     private String userEmail;
-    private String Imgs;
+    private String code;
+    private String imgs;
     private int id;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPhone() {
+        return userPhone;
+    }
+
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
+    }
+
+    public String getPasswordConfirm() {
+        return passwordConfirm;
+    }
+
+    public void setPasswordConfirm(String passwordConfirm) {
+        this.passwordConfirm = passwordConfirm;
+    }
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
+    }
 
     private List<String> videoList;
 
@@ -21,11 +63,11 @@ public class User {
     }
 
     public String getImgs() {
-        return Imgs;
+        return imgs;
     }
 
     public void setImgs(String imgs) {
-        Imgs = imgs;
+        imgs = imgs;
     }
 
     public int getId() {
